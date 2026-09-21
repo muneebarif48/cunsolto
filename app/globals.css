@@ -1,0 +1,24 @@
+/* Custom overrides for Next.js compatibility */
+html, body {
+  overflow-x: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.owl-case-study .swiper-slide {
+  height: auto;
+}
+
+/* Ensure smooth transitions */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 99999;
+}
