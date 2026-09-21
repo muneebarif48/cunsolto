@@ -16,7 +16,7 @@ export default function BlogSection({ variant = 'default' }: BlogSectionProps) {
             <div className="col-lg-12">
               <div className="row">
                 {blogData.map((post) => (
-                  <div key={post.id} className="col-md-12">
+                  <div key={post.id} className="col-md-6 col-lg-4">
                     <div className="blog-item">
                       <div className="img-box">
                         <Link href={post.href} className="open-post">

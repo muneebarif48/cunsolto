@@ -40,7 +40,7 @@ export const teamData: TeamMember[] = [
   {
     id: 'john-tommy',
     name: 'John Tommy',
-    role: 'Cheif Officer',
+    role: 'Chief Executive Officer',
     image: '/images/team/03_team.jpg',
     socials: {
       facebook: '#',

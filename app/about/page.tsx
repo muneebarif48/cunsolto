@@ -8,14 +8,14 @@ import StatisticSection from '@/components/StatisticSection';
 import BlogSection from '@/components/BlogSection';
 
 export const metadata: Metadata = {
-  title: 'About Us 2 - Consulto',
-  description: 'Mission of our company to give best service to customer.',
+  title: 'About Us',
+  description: 'Learn about Consulto, our mission, expert financial advisors, and company history.',
 };
 
 export default function AboutPage() {
   return (
     <>
-      <PageBanner title="About Us 2" currentPage="About Us 2" />
+      <PageBanner title="About Us" currentPage="About Us" />
       <Fancybox variant="fancybox-2" />
       <AboutSection variant="about-2" />
       <ProvideSection />

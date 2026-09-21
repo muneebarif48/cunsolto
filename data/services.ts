@@ -37,7 +37,7 @@ export const servicesData: ServiceItem[] = [
   },
   {
     id: 'taxes-efficiency',
-    title: 'Taxes & Efficience',
+    title: 'Taxes & Efficiency',
     icon: 'flaticon-tax',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
     href: '/services',

@@ -35,16 +35,15 @@
 */
 
 /* :: All Transition */
-* {
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    outline: none;
+a, button, input, select, textarea, .btn-1, .nav-bar, .fancybox-item, .services-item, .case-item, .team-item, .blog-item {
+    -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    -o-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 /* :: Body */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-roboto), 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 25px;
     color: #9B9B9B;

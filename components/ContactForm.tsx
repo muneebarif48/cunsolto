@@ -97,8 +97,9 @@ export default function ContactForm() {
 
               <form onSubmit={handleSubmit}>
                 <div className="quote-item">
-                  <label>Your Full Name *</label>
+                  <label htmlFor="contact-name">Your Full Name *</label>
                   <input
+                    id="contact-name"
                     type="text"
                     name="name"
                     value={formData.name}
@@ -109,8 +110,9 @@ export default function ContactForm() {
                   <i className="fas fa-user-alt"></i>
                 </div>
                 <div className="quote-item">
-                  <label>Your Email *</label>
+                  <label htmlFor="contact-email">Your Email *</label>
                   <input
+                    id="contact-email"
                     type="email"
                     name="email"
                     value={formData.email}
@@ -121,19 +123,21 @@ export default function ContactForm() {
                   <i className="far fa-envelope"></i>
                 </div>
                 <div className="quote-item">
-                  <label>Your Subject</label>
+                  <label htmlFor="contact-subject">Your Subject</label>
                   <input
+                    id="contact-subject"
                     type="text"
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
                     placeholder="Enter Your Subject"
                   />
-                  <i className="fas fa-download"></i>
+                  <i className="fas fa-envelope-open-text"></i>
                 </div>
                 <div className="quote-item">
-                  <label>Your Message *</label>
+                  <label htmlFor="contact-message">Your Message *</label>
                   <textarea
+                    id="contact-message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}

@@ -18,7 +18,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   <Image
                     className="img-fluid"
                     src="/images/about/03_about.jpg"
-                    alt="03 About"
+                    alt="Consulto corporate office and team meeting"
                     width={540}
                     height={400}
                   />
@@ -27,7 +27,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   <i className="flaticon-summit"></i>
                   <div className="content">
                     <div className="counter">40</div>
-                    <div className="counter-name">Year Of Experiance</div>
+                    <div className="counter-name">Years Of Experience</div>
                   </div>
                 </div>
               </div>
@@ -78,19 +78,19 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
               </div>
               <ul>
                 <li>
-                  <i className="fas fa-arrow-right"></i> Support -customer support
+                  <i className="fas fa-arrow-right"></i> Dedicated 24/7 customer support
                 </li>
                 <li>
                   <i className="fas fa-arrow-right"></i> Engage - marketing automation
                 </li>
                 <li>
-                  <i className="fas fa-arrow-right"></i> Acquire live chat enables sales
+                  <i className="fas fa-arrow-right"></i> Acquire - live chat enables sales
                 </li>
                 <li>
                   <i className="fas fa-arrow-right"></i> Learn from customer feedback
                 </li>
                 <li>
-                  <i className="fas fa-arrow-right"></i> Support -customer support
+                  <i className="fas fa-arrow-right"></i> Growth - scale your financial strategy
                 </li>
               </ul>
               <Link href="/about" className="btn-1 btn-3">
@@ -105,7 +105,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   <Image
                     className="img-fluid"
                     src="/images/about/01_about.jpg"
-                    alt="01 About"
+                    alt="Consulto financial advisor working with client"
                     width={250}
                     height={350}
                   />
@@ -116,7 +116,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   <Image
                     className="img-fluid"
                     src="/images/about/02_about.jpg"
-                    alt="02 About"
+                    alt="Consulto business strategy consultation session"
                     width={250}
                     height={350}
                   />

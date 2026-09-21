@@ -14,7 +14,7 @@ export default function HeroSlider() {
   const slides = [
     {
       bg: '/images/header/01_header.jpg',
-      headline: 'Qulity is the best business plan',
+      headline: 'Quality is the best business plan',
       text: 'Consulto specially designed for Consulting and Finance industry, Financial Advisors, Accountants, Consultants or other Finance and Consulting related businesses.',
       btn1Text: 'Get Started',
       btn1Link: '#start',
@@ -64,7 +64,7 @@ export default function HeroSlider() {
                   <div className="row">
                     <div className="col-lg-8">
                       <div className="banner">
-                        <h1 className="handline">{slide.headline}</h1>
+                        <h1 className="headline">{slide.headline}</h1>
                         <p className="about-site">{slide.text}</p>
                         <div className="buttons">
                           {slide.btn1Link.startsWith('#') ? (

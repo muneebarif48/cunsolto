@@ -4,14 +4,14 @@ import PageBanner from '@/components/PageBanner';
 import CaseStudyGrid from '@/components/CaseStudyGrid';
 
 export const metadata: Metadata = {
-  title: 'Case Studies 2 - Consulto',
-  description: 'Let us Have a Look All Our Latest Projects.',
+  title: 'Case Studies',
+  description: 'Explore our portfolio of successful business development, merger & acquisition, and financial planning projects.',
 };
 
 export default function CaseStudiesPage() {
   return (
     <>
-      <PageBanner title="Case Studies 2" currentPage="Case Studies 2" />
+      <PageBanner title="Case Studies" currentPage="Case Studies" />
       <CaseStudyGrid />
     </>
   );

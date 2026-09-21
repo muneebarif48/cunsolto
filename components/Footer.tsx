@@ -18,27 +18,26 @@ export default function Footer() {
                 height={40}
               />
               <p>
-                Petrol Group is a representative Industrial Construction operator providing full
-                range of service in the sphere of Mechanical Engineering worldwide.
+                Consulto is a leading financial & management consulting firm providing comprehensive strategic guidance, tax planning, and advisory solutions worldwide.
               </p>
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="#" aria-label="Facebook">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#" aria-label="Twitter">
                     <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#" aria-label="Instagram">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="#" aria-label="Dribbble">
                     <i className="fab fa-dribbble"></i>
                   </a>
                 </li>
@@ -74,8 +73,14 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <p>
-            @ 2026 Consulto. With Love by{' '}
-            <a href="https://themeforest.net/user/ar-coder/portfolio">AR-Coder</a>
+            @ 2026 Consulto. Built by{' '}
+            <a
+              href="https://themeforest.net/user/ar-coder/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AR-Coder
+            </a>
           </p>
           <ul>
             <li>

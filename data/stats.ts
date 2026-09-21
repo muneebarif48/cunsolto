@@ -28,6 +28,6 @@ export const statsData: StatItem[] = [
     id: 'experience',
     icon: 'flaticon-summit',
     value: '40',
-    label: 'Year Of Experiance',
+    label: 'Years Of Experience',
   },
 ];

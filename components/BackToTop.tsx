@@ -13,7 +13,7 @@ export default function BackToTop() {
 
   return (
     <div className="scroll-up">
-      <a href="#page" className="move-section" onClick={scrollToTop}>
+      <a href="#page" className="move-section" onClick={scrollToTop} aria-label="Scroll to top">
         <i className="fas fa-long-arrow-alt-up"></i>
       </a>
     </div>

@@ -29,7 +29,7 @@ export const caseStudiesData: CaseStudyItem[] = [
   },
   {
     id: 'merger-acquisition',
-    title: 'Merger & Acquistion',
+    title: 'Merger & Acquisition',
     image: '/images/case-study/03_case-study.jpg',
     categoryTags: ['Business Tips', 'Investing'],
     filterCategory: 'investing',

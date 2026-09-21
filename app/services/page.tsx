@@ -5,14 +5,14 @@ import ServicesSection from '@/components/ServicesSection';
 import BlogSection from '@/components/BlogSection';
 
 export const metadata: Metadata = {
-  title: 'Services 2 - Consulto',
-  description: 'What We Provide For Your Business.',
+  title: 'Our Services',
+  description: 'Comprehensive financial advisory, strategy planning, and restructuring services.',
 };
 
 export default function ServicesPage() {
   return (
     <>
-      <PageBanner title="Services 2" currentPage="Services 2" />
+      <PageBanner title="Our Services" currentPage="Services" />
       <ServicesSection variant="services-2" />
       <BlogSection />
     </>

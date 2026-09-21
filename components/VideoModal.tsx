@@ -9,6 +9,24 @@ interface VideoModalProps {
 export default function VideoModal({ videoUrl = 'https://www.youtube.com/embed/TKnufs85hXk' }: VideoModalProps) {
   const [isOpen, setIsOpen] = useState(false);
 
+  React.useEffect(() => {
+    if (!isOpen) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsOpen(false);
+      }
+    };
+
+    document.body.style.overflow = 'hidden';
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen]);
+
   return (
     <>
       <div className="video-presentation">
@@ -33,6 +51,9 @@ export default function VideoModal({ videoUrl = 'https://www.youtube.com/embed/T
 
       {isOpen && (
         <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Video presentation popup"
           style={{
             position: 'fixed',
             top: 0,

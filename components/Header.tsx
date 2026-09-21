@@ -22,7 +22,7 @@ export default function Header() {
         setIsSticky(false);
       }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -276,24 +276,28 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <div
+          <button
+            type="button"
             className="exit-menu-box"
             onClick={() => setIsSideMenuOpen(false)}
-            style={{ cursor: 'pointer' }}
+            aria-label="Close side menu"
+            style={{ cursor: 'pointer', background: 'none', border: 'none' }}
           >
             <i className="fas fa-times"></i>
-          </div>
+          </button>
         </div>
       </div>
 
       {/* :: Dark Mode Button */}
-      <div
+      <button
+        type="button"
         className="dark-mode-btn"
         onClick={toggleDarkMode}
-        style={{ cursor: 'pointer' }}
+        aria-label="Toggle dark mode"
+        style={{ cursor: 'pointer', border: 'none' }}
       >
         <i className={isDarkMode ? 'fas fa-sun' : 'fas fa-moon'}></i>
-      </div>
+      </button>
     </>
   );
 }
