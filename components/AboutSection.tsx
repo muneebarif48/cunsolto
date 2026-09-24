@@ -69,32 +69,22 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
             <div className="text-box">
               <div className="sec-title">
                 <h2>About Us</h2>
-                <h3>Mission of our company to give best service to customer.</h3>
+                <h3>Helping Students Navigate Academic Challenges with Confidence</h3>
                 <p>
-                  Consulto specially designed for Consulting and Finance industry, Financial
-                  Advisors, Accountants, Consultants or other Finance and Consulting related
-                  businesses.
+                  University life comes with deadlines, research requirements, presentations and
+                  complex academic expectations.
                 </p>
               </div>
-              <ul>
-                <li>
-                  <i className="fas fa-arrow-right"></i> Dedicated 24/7 customer support
-                </li>
-                <li>
-                  <i className="fas fa-arrow-right"></i> Engage - marketing automation
-                </li>
-                <li>
-                  <i className="fas fa-arrow-right"></i> Acquire - live chat enables sales
-                </li>
-                <li>
-                  <i className="fas fa-arrow-right"></i> Learn from customer feedback
-                </li>
-                <li>
-                  <i className="fas fa-arrow-right"></i> Growth - scale your financial strategy
-                </li>
-              </ul>
+              <p>
+                At Assignment Deck, we provide academic support designed to help students improve
+                their understanding, strengthen research skills and develop better academic work.
+              </p>
+              <p>
+                Rather than offering shortcuts, we focus on guidance, feedback and academic
+                development that helps students become more confident and independent learners.
+              </p>
               <Link href="/about" className="btn-1 btn-3">
-                See More
+                Learn More About Us
               </Link>
             </div>
           </div>
@@ -105,7 +95,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   <Image
                     className="img-fluid"
                     src="/images/about/01_about.jpg"
-                    alt="Consulto financial advisor working with client"
+                    alt="Assignment Deck academic advisor supporting a student"
                     width={250}
                     height={350}
                   />
@@ -116,7 +106,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   <Image
                     className="img-fluid"
                     src="/images/about/02_about.jpg"
-                    alt="Consulto business strategy consultation session"
+                    alt="Student research and study consultation session"
                     width={250}
                     height={350}
                   />

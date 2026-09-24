@@ -2,7 +2,41 @@
 
 import React, { useState } from 'react';
 
+const faqItems = [
+  {
+    question: 'Do you write assignments for students?',
+    answer:
+      'Our focus is on academic support, research guidance, tutoring and feedback designed to help students improve their own academic work.',
+  },
+  {
+    question: 'Can you help with dissertation projects?',
+    answer:
+      'Yes. We provide guidance on topic selection, literature reviews, research planning, structure and academic development.',
+  },
+  {
+    question: 'Do you support UK university students?',
+    answer:
+      'Yes. Assignment Deck primarily supports students studying in the United Kingdom and also works with students in the United States.',
+  },
+  {
+    question: 'What subjects do you support?',
+    answer:
+      'We assist students across multiple academic disciplines including business, marketing, finance, law, nursing, psychology and computer science.',
+  },
+  {
+    question: 'Can you review my completed work?',
+    answer:
+      'Yes. We provide proofreading, academic feedback and guidance to help identify areas for improvement before submission.',
+  },
+  {
+    question: 'How do I get started?',
+    answer: 'Simply contact our team, share your academic requirements and book an initial consultation.',
+  },
+];
+
 export default function ContactForm() {
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -74,7 +108,35 @@ export default function ContactForm() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-8 offset-lg-2">
+          <div className="col-lg-6">
+            <div className="faq">
+              <div className="sec-title">
+                <h2>FAQ</h2>
+                <h3>Frequently Asked Questions</h3>
+              </div>
+              {faqItems.map((item, idx) => (
+                <div className="faq-box" key={idx}>
+                  <div className="question-header">
+                    <button
+                      type="button"
+                      className="click"
+                      aria-expanded={openFaq === idx}
+                      onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
+                    >
+                      {item.question}
+                      <i className="fas fa-chevron-right"></i>
+                    </button>
+                  </div>
+                  {openFaq === idx && (
+                    <div className="answer">
+                      <p>{item.answer}</p>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="col-lg-6">
             <div className="quote">
               <div className="sec-title text-center">
                 <h3>Get Every Update</h3>

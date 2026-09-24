@@ -14,30 +14,13 @@ export default function HeroSlider() {
   const slides = [
     {
       bg: '/images/header/01_header.jpg',
-      headline: 'Quality is the best business plan',
-      text: 'Consulto specially designed for Consulting and Finance industry, Financial Advisors, Accountants, Consultants or other Finance and Consulting related businesses.',
-      btn1Text: 'Get Started',
-      btn1Link: '#start',
-      btn2Text: 'Our Services',
-      btn2Link: '/services',
-    },
-    {
-      bg: '/images/header/02_header.jpg',
-      headline: 'Consulto Helps You To Save Your Money',
-      text: 'Consulto specially designed for Consulting and Finance industry, Financial Advisors, Accountants, Consultants or other Finance and Consulting related businesses.',
-      btn1Text: 'See More',
-      btn1Link: '/about',
-      btn2Text: undefined,
-      btn2Link: undefined,
-    },
-    {
-      bg: '/images/header/03_header.jpg',
-      headline: 'Best Creative Team With Smart Ideas',
-      text: 'Consulto specially designed for Consulting and Finance industry, Financial Advisors, Accountants, Consultants or other Finance and Consulting related businesses.',
-      btn1Text: 'Our Services',
+      headline: 'Academic Support & Research Guidance for University Students',
+      subhead: 'Learn Better. Research Smarter. Submit with Confidence.',
+      text: 'Assignment Deck helps students strengthen their academic work through expert guidance, research support, tutoring, proofreading and structured feedback.',
+      btn1Text: 'Get Academic Support',
       btn1Link: '/services',
-      btn2Text: undefined,
-      btn2Link: undefined,
+      btn2Text: 'Book a Free Consultation',
+      btn2Link: '/contact',
     },
   ];
 
@@ -46,10 +29,10 @@ export default function HeroSlider() {
       <Swiper
         modules={[Autoplay, EffectFade, Navigation, Pagination]}
         effect="fade"
-        loop={true}
+        loop={slides.length > 1}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
-        navigation={true}
-        pagination={{ clickable: true }}
+        navigation={slides.length > 1}
+        pagination={slides.length > 1 ? { clickable: true } : false}
         className="header-owl"
       >
         {slides.map((slide, idx) => (
@@ -64,7 +47,10 @@ export default function HeroSlider() {
                   <div className="row">
                     <div className="col-lg-8">
                       <div className="banner">
-                        <h1 className="headline">{slide.headline}</h1>
+                        <h1 className="handline">{slide.headline}</h1>
+                        <p className="about-site" style={{ fontWeight: 700, marginBottom: '10px' }}>
+                          {slide.subhead}
+                        </p>
                         <p className="about-site">{slide.text}</p>
                         <div className="buttons">
                           {slide.btn1Link.startsWith('#') ? (

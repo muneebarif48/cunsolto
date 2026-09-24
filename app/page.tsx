@@ -1,28 +1,26 @@
 import React from 'react';
 import HeroSlider from '@/components/HeroSlider';
-import Fancybox from '@/components/Fancybox';
+import StatisticSection from '@/components/StatisticSection';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
-import ProvideSection from '@/components/ProvideSection';
-import StatisticSection from '@/components/StatisticSection';
-import CaseStudyCarousel from '@/components/CaseStudyCarousel';
-import TeamSection from '@/components/TeamSection';
+import WhyChooseSection from '@/components/WhyChooseSection';
+import ProcessSection from '@/components/ProcessSection';
+import SubjectsSection from '@/components/SubjectsSection';
 import ContactForm from '@/components/ContactForm';
-import BlogSection from '@/components/BlogSection';
+import FinalCtaSection from '@/components/FinalCtaSection';
 
 export default function HomePage() {
   return (
     <>
       <HeroSlider />
-      <Fancybox />
+      <StatisticSection />
       <AboutSection />
       <ServicesSection />
-      <ProvideSection />
-      <StatisticSection />
-      <CaseStudyCarousel />
-      <TeamSection />
+      <WhyChooseSection />
+      <ProcessSection />
+      <SubjectsSection />
       <ContactForm />
-      <BlogSection />
+      <FinalCtaSection />
     </>
   );
 }

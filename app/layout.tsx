@@ -29,18 +29,19 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Consulto - Financial & Business Consulting Services',
-    template: '%s - Consulto Consulting',
+    default: 'Academic Support & Research Guidance for UK Students | Assignment Deck',
+    template: '%s - Assignment Deck',
   },
   description:
-    'Consulto provides expert financial advisory, strategic planning, tax efficiency, and business consulting services for corporate and enterprise growth.',
+    'Get expert academic support, research guidance, dissertation help, proofreading and tutoring. Supporting UK students since 2019. Book a consultation.',
   keywords: [
-    'consulting',
-    'financial advisor',
-    'business strategy',
-    'accountant',
-    'tax planning',
-    'corporate finance',
+    'academic support',
+    'research guidance',
+    'dissertation help',
+    'tutoring',
+    'proofreading',
+    'essay writing help',
+    'UK university students',
   ],
 };
 

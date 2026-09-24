@@ -8,45 +8,59 @@ export interface ServiceItem {
 
 export const servicesData: ServiceItem[] = [
   {
-    id: 'estate-planning',
-    title: 'Estate Planning',
-    icon: 'flaticon-presentation',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
+    id: 'homework-help',
+    title: 'Homework Help',
+    icon: 'fas fa-pencil-alt',
+    description:
+      'Get guidance on homework tasks, understanding requirements and developing well-structured academic responses.',
     href: '/services',
   },
   {
-    id: 'insurance-retirement',
-    title: 'Insurance & Retirement',
-    icon: 'flaticon-cheque',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
+    id: 'research-work-support',
+    title: 'Research Work Support',
+    icon: 'fas fa-search',
+    description:
+      'Learn how to identify credible academic sources, structure research and develop stronger evidence-based arguments.',
     href: '/services',
   },
   {
-    id: 'finance-restructuring',
-    title: 'Finance & Restructuring',
-    icon: 'flaticon-safebox',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
+    id: 'case-study-assignment-help',
+    title: 'Case Study Assignment Help',
+    icon: 'fas fa-briefcase',
+    description:
+      'Receive support with case study analysis, problem identification, recommendations and academic structure.',
     href: '/services',
   },
   {
-    id: 'strategy-planning',
-    title: 'Strategy & Planning',
-    icon: 'flaticon-graphics',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
+    id: 'dissertation-writing-support',
+    title: 'Dissertation Writing Support',
+    icon: 'fas fa-graduation-cap',
+    description:
+      'Get assistance with topic selection, literature reviews, research planning, methodology and dissertation structure.',
     href: '/services',
   },
   {
-    id: 'taxes-efficiency',
-    title: 'Taxes & Efficiency',
-    icon: 'flaticon-tax',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
+    id: 'powerpoint-presentation-support',
+    title: 'PowerPoint Presentation Support',
+    icon: 'fas fa-desktop',
+    description:
+      'Create professional academic presentations with stronger content structure, visual organization and delivery planning.',
     href: '/services',
   },
   {
-    id: 'audit-evaluation',
-    title: 'Audit & Evaluation',
-    icon: 'flaticon-search',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry simply dummy text typesetting.',
+    id: 'business-plan-assignment-help',
+    title: 'Business Plan Assignment Help',
+    icon: 'fas fa-chart-line',
+    description:
+      'Develop clear business plans with guidance on market analysis, strategy, financial planning and presentation.',
+    href: '/services',
+  },
+  {
+    id: 'essay-writing-help',
+    title: 'Essay Writing Help',
+    icon: 'fas fa-feather-alt',
+    description:
+      'Improve essay structure, critical thinking, argument development and academic writing quality.',
     href: '/services',
   },
 ];

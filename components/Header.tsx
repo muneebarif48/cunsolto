@@ -222,9 +222,8 @@ export default function Header() {
               />
             </Link>
             <p>
-              Consulto specially designed for Consulting and Finance industry, Financial
-              Advisors, Accountants, Consultants or other Finance and Consulting related
-              businesses.
+              Assignment Deck helps students strengthen their academic work through expert
+              guidance, research support, tutoring, proofreading and structured feedback.
             </p>
           </div>
           <div className="contact-info">

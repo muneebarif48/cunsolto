@@ -18,7 +18,8 @@ export default function Footer() {
                 height={40}
               />
               <p>
-                Consulto is a leading financial & management consulting firm providing comprehensive strategic guidance, tax planning, and advisory solutions worldwide.
+                Assignment Deck provides academic support, research guidance, dissertation help,
+                proofreading and tutoring for UK university students since 2019.
               </p>
               <ul>
                 <li>
@@ -73,7 +74,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <p>
-            @ 2026 Consulto. Built by{' '}
+            @ 2026 Assignment Deck. Built by{' '}
             <a
               href="https://themeforest.net/user/ar-coder/portfolio"
               target="_blank"

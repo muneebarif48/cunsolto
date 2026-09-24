@@ -32,7 +32,7 @@ export default function ServicesSection({ variant = 'default' }: ServicesSection
                   <h4>{item.title}</h4>
                   <p>{item.description}</p>
                   <Link href={item.href} className="more">
-                    <span className="fas fa-arrow-right"></span> read more
+                    <span className="fas fa-arrow-right"></span> Explore Service
                   </Link>
                 </div>
               </div>
@@ -48,16 +48,9 @@ export default function ServicesSection({ variant = 'default' }: ServicesSection
       <div className="container">
         <div className="sec-title">
           <div className="row">
-            <div className="col-lg-5">
+            <div className="col-lg-8">
               <h2>Services</h2>
-              <h3>What We Provide For Your Business.</h3>
-            </div>
-            <div className="col-lg-5 d-flex align-items-center">
-              <p>
-                Consulto specially designed for Consulting and Finance industry, Financial
-                Advisors, Accountants, Consultants or other Finance and Consulting related
-                businesses.
-              </p>
+              <h3>Our Academic Support Services</h3>
             </div>
           </div>
         </div>
@@ -69,7 +62,7 @@ export default function ServicesSection({ variant = 'default' }: ServicesSection
                 <h4>{item.title}</h4>
                 <p>{item.description}</p>
                 <Link href={item.href} className="more">
-                  <span className="fas fa-arrow-right"></span> read more
+                  <span className="fas fa-arrow-right"></span> Explore Service
                 </Link>
               </div>
             </div>

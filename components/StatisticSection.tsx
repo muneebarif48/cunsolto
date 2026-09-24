@@ -11,7 +11,12 @@ export default function StatisticSection() {
               <div className="statistic-item">
                 <i className={stat.icon}></i>
                 <div className="content">
-                  <div className="counter">{stat.value}</div>
+                  <div
+                    className="counter"
+                    style={stat.value.length > 6 ? { fontSize: '26px' } : undefined}
+                  >
+                    {stat.value}
+                  </div>
                   <div className="counter-name">{stat.label}</div>
                 </div>
               </div>

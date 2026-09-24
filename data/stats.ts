@@ -7,27 +7,21 @@ export interface StatItem {
 
 export const statsData: StatItem[] = [
   {
+    id: 'students',
+    icon: 'fas fa-user-graduate',
+    value: '1000+',
+    label: 'Students Supported',
+  },
+  {
     id: 'projects',
-    icon: 'flaticon-finance',
-    value: '7.165',
-    label: 'Projects Completed',
+    icon: 'fas fa-project-diagram',
+    value: '500+',
+    label: 'Projects Guided',
   },
   {
-    id: 'investment',
-    icon: 'flaticon-line-graphic',
-    value: '2.575',
-    label: 'Successful Investment',
-  },
-  {
-    id: 'growth',
-    icon: 'flaticon-jar',
-    value: '1.706',
-    label: 'Business Growth',
-  },
-  {
-    id: 'experience',
-    icon: 'flaticon-summit',
-    value: '40',
-    label: 'Years Of Experience',
+    id: 'subjects',
+    icon: 'fas fa-book-open',
+    value: 'Multiple Subjects',
+    label: 'Academic Support Available',
   },
 ];
