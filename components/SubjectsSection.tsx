@@ -2,17 +2,17 @@ import React from 'react';
 
 const subjects = [
   'Business & Management',
+  'Finance & Accounting',
   'Marketing',
-  'Finance',
-  'Accounting',
   'Computer Science',
+  'Engineering',
+  'Economics',
   'Psychology',
   'Nursing',
-  'Law',
-  'Human Resources',
-  'Economics',
   'Education',
-  'Project Management',
+  'Law',
+  'Statistics',
+  'Research Methods',
 ];
 
 export default function SubjectsSection() {
@@ -22,7 +22,12 @@ export default function SubjectsSection() {
         <div className="row">
           <div className="col-md-8 offset-md-2">
             <div className="sec-title sec-title-2 text-center">
-              <h2>Subjects We Support</h2>
+              <h2>Who We Support</h2>
+              <h3>Supporting Students Across Multiple Subjects</h3>
+              <p>
+                Assignment Deck supports students across a wide range of academic disciplines,
+                including:
+              </p>
             </div>
           </div>
         </div>
@@ -40,7 +45,8 @@ export default function SubjectsSection() {
                   </ul>
                 </div>
                 <p style={{ marginTop: '15px', fontWeight: 600, color: '#A5A5A5' }}>
-                  And many more.
+                  Academic support can be adapted for undergraduate and postgraduate students
+                  across multiple subject areas.
                 </p>
               </div>
             </div>

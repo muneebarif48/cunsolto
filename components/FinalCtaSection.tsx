@@ -17,11 +17,11 @@ export default function FinalCtaSection() {
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <div className="sec-title text-center">
-              <h2>Research. Learn. Improve.</h2>
-              <h3>Your Academic Success Starts with Better Guidance</h3>
+              <h2>Need Academic Guidance?</h2>
+              <h3>Learn Better. Research Smarter. Submit With Confidence.</h3>
               <p>
-                Get the academic support, feedback and guidance you need to approach your studies
-                with confidence.
+                Whether you&apos;re planning a dissertation, preparing a presentation, conducting
+                research or improving an essay, our team is ready to help.
               </p>
             </div>
           </div>
@@ -46,10 +46,10 @@ export default function FinalCtaSection() {
               style={{ display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}
             >
               <Link href="/contact" className="btn-1">
-                Book a Free Consultation
+                Get Academic Support
               </Link>
               <Link href="/contact" className="btn-1 btn-2">
-                Contact Our Team Today
+                Book a Free Consultation
               </Link>
             </div>
           </div>

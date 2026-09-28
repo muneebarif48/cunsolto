@@ -3,23 +3,23 @@ import React from 'react';
 const processSteps = [
   {
     icon: 'fas fa-comments',
-    title: '01. Discuss Your Academic Challenge',
-    desc: 'Share your assignment brief, dissertation topic, research project or academic concern.',
+    title: '1. Share Your Academic Challenge',
+    desc: 'Tell us about your assignment, research project or academic goals.',
   },
   {
     icon: 'fas fa-lightbulb',
-    title: '02. Receive Expert Guidance',
-    desc: 'Get recommendations, research direction and structured academic support.',
+    title: '2. Receive Structured Guidance',
+    desc: 'Get recommendations, research direction and academic support tailored to your needs.',
   },
   {
     icon: 'fas fa-pen',
-    title: '03. Develop Your Work',
+    title: '3. Improve Your Work',
     desc: 'Apply the guidance, strengthen your research and improve your academic structure.',
   },
   {
     icon: 'fas fa-check-double',
-    title: '04. Review & Refine',
-    desc: 'Receive feedback and make final improvements before submission.',
+    title: '4. Submit With Confidence',
+    desc: 'Move forward with greater clarity, understanding and confidence in your academic work.',
   },
 ];
 
@@ -33,8 +33,8 @@ export default function ProcessSection() {
         <div className="sec-title">
           <div className="row">
             <div className="col-lg-8">
-              <h2>Our Process</h2>
-              <h3>Our Academic Support Process</h3>
+              <h2>Our Approach</h2>
+              <h3>How Our Academic Support Process Works</h3>
             </div>
           </div>
         </div>

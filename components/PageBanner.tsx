@@ -4,9 +4,11 @@ import Link from 'next/link';
 interface PageBannerProps {
   title: string;
   currentPage: string;
+  subtitle?: string;
+  description?: string;
 }
 
-export default function PageBanner({ title, currentPage }: PageBannerProps) {
+export default function PageBanner({ title, currentPage, subtitle, description }: PageBannerProps) {
   return (
     <section className="breadcrumb-header" id="page">
       <div className="overlay"></div>
@@ -15,6 +17,8 @@ export default function PageBanner({ title, currentPage }: PageBannerProps) {
           <div className="col-md-6">
             <div className="banner">
               <h1>{title}</h1>
+              {subtitle && <h3>{subtitle}</h3>}
+              {description && <p>{description}</p>}
               <ul>
                 <li>
                   <Link href="/">Home</Link>

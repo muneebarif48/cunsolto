@@ -15,11 +15,11 @@ export default function ServicesSection({ variant = 'default' }: ServicesSection
             <div className="col-md-8 offset-md-2">
               <div className="sec-title sec-title-2 text-center">
                 <h2>Our Services</h2>
-                <h3>We creating solutions for your organization.</h3>
+                <h3>Explore Our Academic Support Services</h3>
                 <p>
-                  Consulto specially designed for Consulting and Finance industry, Financial
-                  Advisors, Accountants, Consultants or other Finance and Consulting related
-                  businesses.
+                  Choose the academic support service that matches your current challenge. Every
+                  service is designed to help students improve understanding, research quality,
+                  structure and academic confidence.
                 </p>
               </div>
             </div>

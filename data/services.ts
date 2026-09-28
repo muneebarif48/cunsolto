@@ -9,10 +9,10 @@ export interface ServiceItem {
 export const servicesData: ServiceItem[] = [
   {
     id: 'homework-help',
-    title: 'Homework Help',
+    title: 'Assignment Help',
     icon: 'fas fa-pencil-alt',
     description:
-      'Get guidance on homework tasks, understanding requirements and developing well-structured academic responses.',
+      'Get guidance on assignment requirements, topic understanding, planning and academic structure. We help students break complex tasks into manageable steps and develop stronger study habits.',
     href: '/services',
   },
   {
@@ -20,7 +20,7 @@ export const servicesData: ServiceItem[] = [
     title: 'Research Work Support',
     icon: 'fas fa-search',
     description:
-      'Learn how to identify credible academic sources, structure research and develop stronger evidence-based arguments.',
+      'Learn how to find credible sources, evaluate evidence and build stronger academic arguments. Research support helps students improve literature reviews, source selection and critical analysis.',
     href: '/services',
   },
   {
@@ -28,7 +28,7 @@ export const servicesData: ServiceItem[] = [
     title: 'Case Study Assignment Help',
     icon: 'fas fa-briefcase',
     description:
-      'Receive support with case study analysis, problem identification, recommendations and academic structure.',
+      'Receive support with case study analysis, theory application, problem identification and recommendation development. Learn how to structure case studies using academic frameworks and evidence-based reasoning.',
     href: '/services',
   },
   {
@@ -36,7 +36,7 @@ export const servicesData: ServiceItem[] = [
     title: 'Dissertation Writing Support',
     icon: 'fas fa-graduation-cap',
     description:
-      'Get assistance with topic selection, literature reviews, research planning, methodology and dissertation structure.',
+      'Support for dissertation planning, literature reviews, research methodology, chapter structure and academic development. Large research projects require clear planning and research direction.',
     href: '/services',
   },
   {
@@ -44,7 +44,7 @@ export const servicesData: ServiceItem[] = [
     title: 'PowerPoint Presentation Support',
     icon: 'fas fa-desktop',
     description:
-      'Create professional academic presentations with stronger content structure, visual organization and delivery planning.',
+      'Improve presentation structure, slide design, content organization and academic storytelling. Learn how to communicate ideas clearly and professionally.',
     href: '/services',
   },
   {
@@ -52,7 +52,7 @@ export const servicesData: ServiceItem[] = [
     title: 'Business Plan Assignment Help',
     icon: 'fas fa-chart-line',
     description:
-      'Develop clear business plans with guidance on market analysis, strategy, financial planning and presentation.',
+      'Develop stronger business plans through guidance on market research, business strategy, financial planning and professional presentation.',
     href: '/services',
   },
   {
@@ -60,7 +60,7 @@ export const servicesData: ServiceItem[] = [
     title: 'Essay Writing Help',
     icon: 'fas fa-feather-alt',
     description:
-      'Improve essay structure, critical thinking, argument development and academic writing quality.',
+      'Improve essay planning, argument development, critical thinking and academic writing quality. Learn how to create evidence-based essays that address assignment objectives.',
     href: '/services',
   },
 ];
