@@ -6,15 +6,16 @@ interface PageBannerProps {
   currentPage: string;
   subtitle?: string;
   description?: string;
+  wide?: boolean;
 }
 
-export default function PageBanner({ title, currentPage, subtitle, description }: PageBannerProps) {
+export default function PageBanner({ title, currentPage, subtitle, description, wide }: PageBannerProps) {
   return (
     <section className="breadcrumb-header" id="page">
       <div className="overlay"></div>
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className={wide ? 'col-lg-10' : 'col-md-6'}>
             <div className="banner">
               <h1>{title}</h1>
               {subtitle && <h3>{subtitle}</h3>}

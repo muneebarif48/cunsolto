@@ -50,7 +50,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                   adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna
                   aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
-                <Link href="/about" className="btn-1 btn-3">
+                <Link href="/about-us" className="btn-1 btn-3">
                   See More
                 </Link>
               </div>
@@ -83,7 +83,7 @@ export default function AboutSection({ variant = 'default' }: AboutSectionProps)
                 Rather than offering shortcuts, we focus on guidance, feedback and academic
                 development that helps students become more confident and independent learners.
               </p>
-              <Link href="/about" className="btn-1 btn-3">
+              <Link href="/about-us" className="btn-1 btn-3">
                 Learn More About Us
               </Link>
             </div>
